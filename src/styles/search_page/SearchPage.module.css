@@ -1,0 +1,95 @@
+.grid_wrapper {
+    display: grid;
+    grid-gap: 1.5vw;
+    min-height: 100vh;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1vw;
+    grid-column-gap: 5vw;
+    grid-template-areas: 
+    "header header"
+    "info_about_search svg_docs"
+    "search_form svg_elements"
+    "footer footer"; 
+}
+
+.header { grid-area: header; }
+.info_about_search { grid-area: info_about_search; }
+.svg_docs { grid-area: svg_docs; }
+.search_form { grid-area: search_form; }
+.svg_elements { grid-area: svg_elements; }
+.footer { grid-area: footer; }
+
+.header_search {
+    text-align: left;
+    margin-left: 3.75rem;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+}
+
+.text_search {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0125rem;
+    text-align: left;
+    margin: 1.56rem 0 0 3.75rem;    
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .grid_wrapper {
+        display: grid;
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 1vw;
+        grid-column-gap: 5vw;
+        grid-template-areas: 
+        "header"
+        "info_about_search"
+        "svg_docs"
+        "search_form" 
+        "svg_elements"
+        "footer"; 
+    }
+    
+    .header { grid-area: header; }
+    .info_about_search { grid-area: info_about_search; }
+    .svg_docs { grid-area: svg_docs; }
+    .search_form { grid-area: search_form; }
+    .svg_elements { grid-area: svg_elements; }
+    .footer { grid-area: footer; }
+    
+    .header_search {
+        text-align: left;
+        margin-left: 0.88rem;
+        margin-bottom: 0;
+        font-size: 1.75rem;
+        font-weight: 900;
+        letter-spacing: 0.0175rem;
+        width: 22.5625rem;
+    }
+    
+    .text_search {
+        font-size: 1.125rem;
+        font-weight: 400;
+        letter-spacing: 0.0125rem;
+        text-align: left;
+        margin: 1.19rem 0 0 0.88rem;    
+    }
+
+    .folders {
+        display: none;
+    }
+
+    .document {
+        display: block;
+    }
+
+    .rocket {
+        width: 100%;
+    }
+}

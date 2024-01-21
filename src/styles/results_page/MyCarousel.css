@@ -1,0 +1,112 @@
+.inner_text {
+    font-size: 20px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0px auto;
+    font-family: sans-serif;
+    border: 1px solid #949494;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: "";
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+    color: #000000;
+    font-size: 45px;
+    z-index: 1;
+}
+
+.slick-slider {
+    padding-left: 8.3125rem !important;
+    padding-right: 0 !important;
+}
+
+.slider-block {
+    border-radius: 0.625rem;
+    border: 2px solid #029491;
+    background: #029491;
+    margin-left: 5.87rem;
+    margin-right: 5.87rem;
+}
+
+.slider_header {
+    float: left;
+}
+
+.slider_header_text {
+    margin: 0 0 1.1rem 1.75rem;
+    text-align: left;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.025rem;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .inner_text {
+        font-size: 20px;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        margin: 0px auto;
+        font-family: sans-serif;
+        border: 1px solid #949494;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    .slick-prev {
+        left: -45px;
+    }
+    
+    .slick-next:before,
+    .slick-prev:before {
+        content: "";
+    }
+    .next-slick-arrow,
+    .prev-slick-arrow {
+        color: #000000;
+        font-size: 45px;
+        z-index: 1;
+    }
+    
+    .slick-slider {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .slider-block {
+        width: 17.625rem;
+        border-radius: 0.625rem;
+        border: 2px solid #029491;
+        background: #029491;
+        margin-left: 2.37rem;
+        margin-right: 2.44rem;
+    }
+    
+    .slider_header {
+        float: none;
+    }
+    
+    .slider_header_text {
+        display: inline-block;
+        margin: 1.44rem 1.06rem 1.44rem 0.94rem;
+        text-align: center;
+        color: #FFF;
+        font-size: 1.125rem;
+        letter-spacing: 0.01125rem;
+    }
+}

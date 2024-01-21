@@ -1,0 +1,45 @@
+.slick-prev {
+    left: -52px;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    content: "";
+    z-index: -1;
+  }
+
+.left_arrow {
+    background: none;
+    border: none;
+    margin-top: 115px;
+    margin-left: 60px;
+    float: left;
+}
+
+.right_arrow {
+    background: none;
+    border: none;
+    float: right;
+    margin-right: -50px;
+    margin-top: -170px;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+  .left_arrow {
+    background: none;
+    border: none;
+    margin-top: 60px;
+    margin-left: 0;
+    padding-right: 0;
+    float: left;
+  }
+
+  .right_arrow {
+    position: relative;
+    z-index: 1;
+    background: none;
+    border: none;
+    float: right;
+    margin-right: -40px;
+    margin-top: -105px;
+  }
+}

@@ -1,0 +1,190 @@
+.block {
+    display: inline-block;
+    border-radius: 0.85rem;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    width: 25.9375rem;
+    height: 35.25rem;
+    margin-right: 2.34rem;
+}
+
+.card_title {
+    background: #000000;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    width: auto;
+    height: 8.25rem;
+    color: #FFF;  
+}
+
+.card_title_header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.87rem;
+    padding-left: 1.87rem;
+    text-align: left;
+    font-size: 1.875rem;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+}
+
+.card_title_text {
+    text-align: left;
+    padding-left: 1.87rem;
+    margin-top: 0.63rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.01125rem;
+}
+
+.laptop_image {
+    float: right;
+    padding: 0.69rem 0.98rem 0 0;
+}
+
+.rate_field {
+    text-align: right;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+.rate_marking {
+    text-align: center;
+    border-radius: 0.625rem;
+    background: #3BA5E0;
+    color: #FFF;
+    padding: 0.19rem 0.81rem 0.25rem 0.81rem;
+    margin-right: 0.63rem;
+}
+
+.prices {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1.87rem;
+    margin-bottom: 0.63rem;
+}
+
+.prices {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1.87rem;
+    margin-bottom: 0.63rem;
+}
+
+.actual_price {
+    font-size: 1.875rem;
+    font-weight: 500;
+    letter-spacing: 0.01875rem;
+}
+
+.former_price {
+    color: gray;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    letter-spacing: 0.01563rem;
+    margin-left: 1.19rem;
+    padding-bottom: 0.19rem;
+}
+
+.installment {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1.87rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.01125rem;
+}
+
+.benefits_header {
+    text-align: left;
+    margin-top: 3.69rem;
+    padding-left: 1.87rem;
+    margin-bottom: 0.63em;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0125rem;
+}
+
+.benefits {
+    text-align: left; 
+    padding-left: 1.87rem;
+    margin-top: 0;
+    margin-bottom: 0.31rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.01125rem;
+}
+
+.button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0125rem;
+    width: 22.1875rem;
+    height: 3.6875rem;
+    border-radius: 0.3125rem;
+    background: #5970FF;
+    margin-top: 3.44rem;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .block {
+        width: 20.9375rem;
+        margin-right: 0;
+        margin-bottom: 2.69rem;
+    }
+    
+    .card_title_header {
+        padding-left: 1.5rem;
+    }
+    
+    .card_title_text {
+        padding-left: 1.5rem;
+    }
+    
+    .laptop_image {
+        float: right;
+        width: 3.6875rem;
+        height: 3.32381rem;
+        padding: 0.81rem 0.31rem 0 0;
+    }
+    
+    .rate_marking {
+        text-align: center;
+        border-radius: 0.625rem;
+        background: #3BA5E0;
+        color: #FFF;
+        padding: 0.19rem 0.81rem 0.25rem 0.81rem;
+        margin-right: 0.63rem;
+    }
+    
+    .prices {
+        margin-left: 1.5rem;
+    }
+    
+    .former_price {
+        margin-left: 0.63rem;        
+    }
+    
+    .installment {
+        margin-left: 1.5rem;
+        margin-right: 2.38rem;
+    }
+    
+    .benefits_header {        
+        margin-top: 2.25rem;
+        padding-left: 1.5rem;
+    }
+    
+    .benefits {
+        padding-left: 1.5rem;
+    }
+    
+    .button {
+        font-size: 1.125rem;
+        letter-spacing: 0.01125rem;
+        width: 17.91038rem;
+        margin-top: 2.44rem;
+    }
+    
+}

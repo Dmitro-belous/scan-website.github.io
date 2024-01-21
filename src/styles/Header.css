@@ -1,0 +1,26 @@
+.icon {
+    display: block;
+    margin-left: 3.75rem;
+}
+
+.headText {
+    font-weight: bold;
+    margin-top: -3.7rem;
+
+}
+
+.header_link {
+        padding: 0 3.06rem;
+}
+
+@media screen and (max-width: 750px) {
+    .icon {
+        display: block;
+        margin-left: 0.88rem;
+        width: 6.9375rem;
+    }    
+    
+    .headText {
+        display: none;
+    }
+}
