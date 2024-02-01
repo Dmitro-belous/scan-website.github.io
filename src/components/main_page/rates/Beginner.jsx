@@ -4,9 +4,6 @@ import s from '../../../styles/main_page/rates/Beginner.module.css'
 import lamp from '../../../media/lamp.svg'
 import checkbox from '../../../media/checkbox.svg'
 
-import button from 'react-bootstrap/button';
-import Card from 'react-bootstrap/Card';
-
 function Beginner() {
   return (
     <div className={s.block}>
