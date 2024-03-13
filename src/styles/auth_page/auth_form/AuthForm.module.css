@@ -1,0 +1,123 @@
+.auth_block {
+    width: 26.8125rem;
+    height: 32.6875rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-top: -2.3rem;
+    margin-left: 3.1rem;
+    margin-bottom: 5rem;
+}
+
+.button_login {
+    margin-top: 1.5rem;
+    margin-right: 0.96rem;
+    border-bottom: 2px solid #029491;
+    width: 9.4375rem;
+    height: 2rem;
+    color: #029491;
+    font-family: 'Inter', arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+.button_login:hover {
+    color: #03b3b0;
+    border-bottom: 2px solid #03b3b0;    
+}
+.button_login:active {
+    color: #02a726;
+    border-bottom: 2px solid #02a726;    
+}
+
+.button_auth {
+    border-bottom: 2px solid #C7C7C7;
+    width: 13.3125rem;
+    height: 2rem;
+    color: #C7C7C7;
+    font-family: 'Inter', arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+.button_auth:hover {
+    color: #03b3b0;
+    border-bottom: 2px solid #03b3b0;    
+}
+.button_auth:active {
+    color: #02a726;
+    border-bottom: 2px solid #02a726;    
+}
+
+.password_recovery {
+    display: block;
+    margin-top: 0.94rem;
+}
+
+.log_in_via {
+    text-align: left;
+    margin-top: 1.88rem;
+    margin-left: 1.56rem;
+    color: #949494;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+}
+
+.alt_login {
+    background: none;
+    border: none;
+    display: block;
+    float: left;
+    margin-left: 1.25rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px)  {
+    .auth_block {
+        width: 20.9375rem;
+        height: 33rem;
+        margin: -0.8rem auto 3.06rem;
+    }    
+    
+    .button_login {
+        margin-left: 0.94rem;
+        margin-right: 1rem;
+        width: 6.4375rem;
+        font-size: 0.875rem;
+        letter-spacing: 0.0175rem;  
+    }
+    
+    .button_auth {
+        width: 11.375rem;
+        font-size: 0.875rem;
+        letter-spacing: 0.0175rem;
+        margin-right: 0.94rem;
+    }
+    
+    .log_in_via {
+        margin-left: 0.94rem;
+    }
+    
+    .alt_login {
+        background: none;
+        border: none;
+        display: block;
+        float: left;
+        margin-left: 0.56rem;
+        width: 6rem;
+        height: 1.9375rem;
+    }
+}

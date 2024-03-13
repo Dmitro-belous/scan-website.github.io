@@ -1,31 +1,28 @@
-/* .carousel-block {
-    margin-left: 5.87rem;
-    margin-right: 5.87rem;
-} */
-
-.slick-slider {
-  padding-left: 10rem !important;
+#main-page-carousel {
+  padding-left: 10rem;
   padding-right: 10rem;
 }
-
-/* .slick-list .slick-slide.slick-active {
-  padding-left: 1rem;
-} */
 
 .slide-card {
   width: 100%;
 }
 
 @media screen and (min-width: 150px) and (max-width: 750px) {
-  .slick-slider {
-    padding-left: 0 !important;
+  #main-page-carousel {
+    padding-left: 0;
     padding-right: 0;
   }
-  .slide-card {
-    width: 100%;
+
+  .carousel-block {
+    margin: auto;   
+    width: 298px;
+    height: 188px;
+  }
+  .slick-next {
+    right: -15px;
   }
 
-.carousel-block {
-    margin-right: 2.44rem;
+  .slick-prev {
+    left: -35px !important;
 }
 }

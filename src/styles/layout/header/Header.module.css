@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header {
+    margin-left: 3.75rem;
+}
+
+.head_text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+}
+
+.header_link {
+    padding: 0 3.06rem;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.header_link:hover {
+    color: #f387ea;
+    text-decoration: underline;    
+}
+.header_link:active {
+    color: #b858b0;
+    text-decoration: underline;    
+}
+
+@media screen and (max-width: 750px) {
+    .logo_header {
+        display: block;
+        margin-left: 14px;
+    }    
+    
+    .head_text {
+        display: none;
+    }
+}

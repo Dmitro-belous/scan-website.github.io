@@ -1,0 +1,52 @@
+.auth_buttons_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth_button {    
+    height: 1.625rem;
+    opacity: 0.4;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.00875rem;
+    padding-bottom: 2px;
+    border: none;
+    background: none;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.auth_button:hover {
+    opacity: 1;
+}
+
+.border {
+    width: 2px;
+    height: 26px;
+    background-color: #029491;
+}
+
+.login_button {
+    width: 4.0625rem;
+    height: 1.625rem;
+    padding-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 3.75rem;
+    font-size: 0.875rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: medium;
+    letter-spacing: 0.00875rem;
+    border: none;
+    border-radius: 0.3125rem;
+    background: #7CE3E1;
+    cursor: pointer;
+}
+.login_button:hover {
+    background: #5cc2c0;
+}
+.login_button:active {
+    color: white;
+    background: #18a514;
+}

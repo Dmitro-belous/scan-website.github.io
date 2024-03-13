@@ -48,15 +48,6 @@
     margin-bottom: 0;
 }
 
-.rate_marking {
-    text-align: center;
-    border-radius: 0.625rem;
-    background: #3BA5E0;
-    color: #FFF;
-    padding: 0.19rem 0.81rem 0.25rem 0.81rem;
-    margin-right: 0.63rem;
-}
-
 .prices {
     text-align: left;
     margin-top: 0;
@@ -117,6 +108,7 @@
 
 .button {
     color: #FFF;
+    font-family: 'Inter', arial, sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     letter-spacing: 0.0125rem;
@@ -125,6 +117,7 @@
     border-radius: 0.3125rem;
     background: #5970FF;
     margin-top: 3.44rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 150px) and (max-width: 750px) {
@@ -147,15 +140,6 @@
         width: 3.6875rem;
         height: 3.32381rem;
         padding: 0.81rem 0.31rem 0 0;
-    }
-    
-    .rate_marking {
-        text-align: center;
-        border-radius: 0.625rem;
-        background: #3BA5E0;
-        color: #FFF;
-        padding: 0.19rem 0.81rem 0.25rem 0.81rem;
-        margin-right: 0.63rem;
     }
     
     .prices {

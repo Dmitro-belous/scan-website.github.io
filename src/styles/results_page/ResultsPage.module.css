@@ -4,26 +4,20 @@
     padding: 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 1vw;
-    grid-column-gap: 5vw;
     grid-template-areas: 
-    "header header"
     "searching_for_results searching-woman"
     "carousel carousel"
-    "svg-elements svg-elements" 
-    "documents documents"
-    "footer footer"; 
+    "documents documents"; 
 }
 
-.header { grid-area: header; }
 .searching_for_results { grid-area: searching_for_results; }
 .searching_woman { grid-area: searching-woman; }
 .carousel { grid-area: carousel; }
 .documents { grid-area: documents; }
-.footer { grid-area: footer; }
 
 .header_text {
     color: #000;
+    font-family: "Ferry", Arial, Helvetica, sans-serif;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 900;
@@ -36,6 +30,7 @@
 
 .searching_results {
     color: #000;
+    font-family: "Ferry", Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 900;
@@ -56,30 +51,6 @@
     margin: 1rem 0 0 3.75rem;    
 }
 
-.number_of_variants {
-    color: #949494;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.0225rem;
-    text-align: left;
-    margin-left: 3.75rem;
-    margin-top: 0;
-}
-
-.button_data {
-    width: 19.0625rem;
-    height: 3.6875rem;
-    border-radius: 0.3125rem;
-    background: #5970FF;
-    color: #FFF;
-    font-size: 1.375rem;
-    font-weight: 500;
-    letter-spacing: 0.055rem;
-    margin-top: 4.37rem;
-}
-
 @media screen and (min-width: 150px) and (max-width: 750px) {
     .grid_wrapper {
         display: grid;
@@ -87,36 +58,28 @@
         padding: 0;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
-        grid-gap: 1vw;
-        grid-column-gap: 5vw;
         grid-template-areas: 
-        "header"
         "searching_for_results"
         "searching-woman"
         "carousel"
-        "documents"
-        "footer"; 
+        "documents"; 
     }
     
-    .header { grid-area: header; }
     .searching_for_results { grid-area: searching_for_results; }
     .searching_woman { grid-area: searching-woman; }
     .carousel { grid-area: carousel; }
     .documents { grid-area: documents; }
-    .footer { grid-area: footer; }
     
     .header_text {
         font-size: 1.75rem;
         font-weight: 900;
         letter-spacing: 0.0175rem;
-        text-align: left;
         margin-left: 0.87rem;
         margin-bottom: 0;
     }
     
     .searching_results {
         font-size: 1.75rem;
-        font-weight: 900;
         letter-spacing: 0.0175rem;
         margin: 1.25rem 0 0 0.87rem;
     }
@@ -130,17 +93,4 @@
     .woman_pic {
         width: 100%;
     }
-
-    .number_of_variants {
-        letter-spacing: 0.01125rem;
-        margin-left: 0.87rem;
-        margin-top: 0.62rem;
-    }
-    
-    .button_data {
-        width: 20.9375rem;
-        font-size: 1.25rem;
-        letter-spacing: 0.0375rem;
-        margin-top: 2.25rem;
-    }  
 }

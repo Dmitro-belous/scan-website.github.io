@@ -1,0 +1,116 @@
+.slick-prev > div, .slick-next > div {
+    margin-top: -10px !important;
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: "";
+}
+
+.slick-list {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.slick-track {
+    margin-left: 0;
+}
+
+.slider-block {
+    border-radius: 0.85rem;
+    border: 2px solid #029491;
+    height: 158px;
+    margin-left: 5.87rem;
+    margin-right: 5.87rem;
+}
+
+.slider_header {    
+    background: #029491;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 158px;
+    width: 8.3125rem;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+}
+
+.slider_header_text {
+    margin-left: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.025rem;
+}
+.slider_header_text:nth-of-type(2) {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .slick-next:before,
+    .slick-prev:before {
+        content: "";
+    }
+    
+    .slick-slider {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .slider-block {
+        width: 298px;
+        height: 140px;
+        border-radius: 0.8rem;
+        border: none;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+        background: #029491;
+        margin-left: 2.37rem;
+        margin-right: 2.44rem;
+    }
+    
+    .slider_header {
+        float: none;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        height: 75px;
+    }
+    
+    .slider_header_text {
+        text-align: center;
+        color: #FFF;
+        font-size: 1.125rem;
+        letter-spacing: 0.01125rem;
+    }
+
+    .slider_header_text:nth-of-type(1) {
+        margin-left: 15px;
+    }
+    .slider_header_text:nth-of-type(2) {
+        margin-left: 60px;
+    }    
+    .slider_header_text:nth-of-type(3) {
+        margin-left: 31px;
+    }
+
+    .slick-list {
+        border-top-right-radius: 0;       
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .loader_block {
+        height: 65px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

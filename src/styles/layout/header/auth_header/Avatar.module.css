@@ -1,0 +1,33 @@
+.username {
+    margin-right: 3.5rem;
+    margin-bottom: -4rem;
+    opacity: 0.7;
+    font-size: 0.875rem;
+    letter-spacing: 0.00875rem;
+}
+
+.avatar_text {    
+    float: left;   
+    margin-top: 1.3rem;
+    margin-right: -4.5rem;
+}
+
+.avatar_img {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.logout {
+    font-family: 'Inter', arial, sans-serif;
+    margin-right: 1rem;
+    border: none;
+    background: none;
+    font-size: 0.625rem;
+    letter-spacing: 0.00625rem;    
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.avatar {
+    z-index: 0;
+}

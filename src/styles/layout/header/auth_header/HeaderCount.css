@@ -1,0 +1,68 @@
+.company_count_block {
+    width: 175px;
+    height: 63px;    
+    margin-left: auto;
+    margin-right: 3rem;
+    background: rgb(217,217,217, 0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.company_count_text {
+    display: block;
+    font-size: 0.625rem;
+    letter-spacing: 0.00625rem;  
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    margin-left: 27px;  
+}
+
+.company_count_text:nth-of-type(1) {
+    margin-bottom: 7px; 
+    margin-left: 10px;   
+}
+
+.companies_number,
+.limit_number {
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    font-weight: 700;
+}
+
+.companies_number {
+    color: rgba(0, 0, 0, 1);
+}
+
+.limit_number {
+    color: #8AC540;
+}
+
+@media screen and (max-width: 750px) {
+    .company_count_block {
+        width: 132px;
+        height: 75px;    
+        margin-left: 31px;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .company_count_text {
+        font-size: 8px;
+        letter-spacing: 0.08px;  
+        margin: 0;
+        margin-left: 10px;  
+    }
+
+    .companies_number,
+    .limit_number {
+        display: block;
+        text-align: left;
+    }
+    
+}
+   

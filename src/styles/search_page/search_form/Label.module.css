@@ -1,0 +1,12 @@
+.label_search {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.03375rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .label_search {
+        letter-spacing: 0.0225rem;
+    }
+}

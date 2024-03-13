@@ -1,0 +1,53 @@
+.wrong_label_blank {
+    position: absolute;
+    color: #FF5959;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    padding-left: 54px;
+    padding-top: 5px;
+}
+
+.wrong_label {
+    position: absolute;
+    color: #FF5959;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    padding-left: 19px;
+    padding-top: 5px;
+}
+
+.wrong_date_label {
+    position: absolute;
+    color: #FF5959;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    padding-left: 85px;
+    padding-top: 7px;
+}
+
+.wrong_date_label_blank {
+    position: absolute;
+    color: #FF5959;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    padding-left: 115px;
+    padding-top: 7px;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .wrong_label_blank,
+    .wrong_date_label_blank {
+        padding-left: 100px;
+        padding-top: 5px;
+    }
+    
+    .wrong_label,
+    .wrong_date_label {
+        padding-left: 66px;
+        padding-top: 5px;        
+    }
+}

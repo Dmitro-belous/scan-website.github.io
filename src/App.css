@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Ferry;
+  /* Браузер сначала попробует найти шрифт локально */
+  src:
+       /* Если не получилось, загрузит oft */
+       url("fonts/ferry_black.woff") format("woff");
+}
+
 .App {
   text-align: center;
+  margin: 0 auto;
 }
+
+

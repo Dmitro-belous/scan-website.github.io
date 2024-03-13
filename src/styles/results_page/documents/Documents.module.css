@@ -1,0 +1,58 @@
+.documents_field {
+    display: grid;
+    padding-bottom: 38px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "button button";
+}
+
+.button_data {
+    grid-area: button;
+    align-self: center;
+    width: 19.0625rem;
+    height: 3.6875rem;
+    border-radius: 0.3125rem;
+    background: #5970FF;
+    color: #FFF;
+    font-family: 'Inter', arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    letter-spacing: 0.055rem;
+    margin-bottom: 109px;
+    cursor: pointer;
+}
+.button_data:hover {
+    background: rgb(68, 93, 252);
+}
+.button_data:active {
+    background: #1eb319;
+}
+
+@media screen and (min-width: 150px) and (max-width: 750px) {
+    .documents_field {
+        display: grid;
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "button";
+    }
+    
+    .button_data { 
+        grid-area: button;
+        display: block;
+        align-self: flex-start;
+        width: 335px;
+        height: 3.6875rem;
+        border-radius: 0.3125rem;
+        background: #5970FF;
+        color: #FFF;
+        font-size: 1.375rem;
+        font-weight: 500;
+        letter-spacing: 0.055rem;
+        margin-left: 14px;
+        margin-top: 36px;
+        margin-bottom: 57px;
+    }
+}

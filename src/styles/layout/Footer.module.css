@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #029491;
+    height: 8.5625rem;
+}
+
+.logo_footer {
+    margin-left: 3.75rem;
+}
+
+.address {
+    text-align: right;
+    padding-top: 1.56rem;
+    padding-right: 2.81rem;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.0175rem;
+}
+
+.copyright {
+    text-align: right;
+    margin-top: 21px;
+    color: #FFF;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
+
+@media screen and (max-width: 750px) {
+    .logo_footer {
+        margin-left: 1.12rem;
+        margin-top: -0.75rem;
+        width: 6.9375rem;
+        height: 6.9375rem;
+    }
+    
+    .address {
+        padding-right: 1.19rem;
+        letter-spacing: 0.00875rem;
+    }
+    
+    .copyright {
+        letter-spacing: 0.0075rem;
+    }
+}
